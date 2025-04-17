@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "parts": [
+      { "type": "wokwi-arduino-uno", "id": "uno" },
+      { "type": "wokwi-led", "id": "led", "attrs": { "color": "red" } }
+    ],
+    "connections": [
+      [ "uno:13", "led:A", "green", [ "v0" ] ],
+      [ "led:C", "uno:GND", "black", [ "v0" ] ]
+    ]
+  }
+  
